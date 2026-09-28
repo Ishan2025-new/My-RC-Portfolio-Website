@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Source Serif 4', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+
+    /* Theme - Ivory / Editorial */
+    --bg-canvas: #F7F5EE;
+    --bg-surface: #FCFAF6;
+    --bg-surface-elevated: #FFFFFF;
+    --border-subtle: rgba(18, 24, 29, 0.08);
+    --border-strong: rgba(18, 24, 29, 0.18);
+    --text-primary: #12181D;
+    --text-secondary: #58636E;
+    --text-muted: #7E8B99;
+    --accent-pine: #1B4B43;
+    --accent-pine-light: #2A6E63;
+    --accent-brass: #9E7917;
+  }
+
+  [data-theme="dark"] {
+    --bg-canvas: #0F1418;
+    --bg-surface: #161D22;
+    --bg-surface-elevated: #1D262D;
+    --border-subtle: rgba(236, 232, 223, 0.09);
+    --border-strong: rgba(236, 232, 223, 0.18);
+    --text-primary: #ECE8DE;
+    --text-secondary: #9FA9B3;
+    --text-muted: #6B7680;
+    --accent-pine: #5EB2A0;
+    --accent-pine-light: #77C9B8;
+    --accent-brass: #DDB754;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}

@@ -82,8 +82,7 @@ export const PROJECTS: Project[] = [
       "Categorized expense distribution and predictive runway calculation"
     ],
     techStack: ["Python", "Pandas", "Matplotlib", "FPDF", "OpenPyXL", "Flask", "NumPy"],
-    githubUrl: "https://github.com/Ishan2025-new/financial-health-app",
-    imageUrl: "/src/assets/images/Intelligent Financial Planner Assistant.jpg"
+    githubUrl: "https://github.com/Ishan2025-new/financial-health-app"
   },
   {
     id: "library-management",
@@ -108,8 +107,7 @@ export const PROJECTS: Project[] = [
       "Member management, role-based controls, and issuance receipt generator"
     ],
     techStack: ["Java SE", "MySQL", "JDBC", "OOP", "SQL", "Swing UI"],
-    githubUrl: "https://github.com/Ishan2025-new/BCA-Major-Project-Library-Management-System-using-Java-and-MySQL",
-    imageUrl: "/src/assets/images/Library Management System.jpg"
+    githubUrl: "https://github.com/Ishan2025-new/BCA-Major-Project-Library-Management-System-using-Java-and-MySQL"
   },
   {
     id: "pyspark-bigdata",
@@ -134,8 +132,7 @@ export const PROJECTS: Project[] = [
       "Feature engineering preprocessing for scalable downstream ML algorithms"
     ],
     techStack: ["PySpark", "Apache Spark", "Big Data", "DataFrames", "Python", "SQL"],
-    githubUrl: "https://github.com/Ishan2025-new/PySpark-Big-Data-Guided-Project-by-Coursera",
-    imageUrl: "/src/assets/images/PySpark Big Data Analytics.png"
+    githubUrl: "https://github.com/Ishan2025-new/PySpark-Big-Data-Guided-Project-by-Coursera"
   },
   {
     id: "hr-analytics",
@@ -160,8 +157,7 @@ export const PROJECTS: Project[] = [
       "Color-coded risk indicators for high-turnover job roles"
     ],
     techStack: ["Power BI", "DAX", "Data Modeling", "Business Intelligence", "Excel"],
-    githubUrl: "https://github.com/Ishan2025-new/Power-BI-Project-HR-Employee-Analytics-Dashboard",
-    imageUrl: "/src/assets/images/HR Analytics Dashboard.png"
+    githubUrl: "https://github.com/Ishan2025-new/Power-BI-Project-HR-Employee-Analytics-Dashboard"
   },
   {
     id: "bank-management",
@@ -186,8 +182,7 @@ export const PROJECTS: Project[] = [
       "Validation rules for account overdraft and balance minimums"
     ],
     techStack: ["Python", "MySQL", "Database Design", "SQL Connector"],
-    githubUrl: "https://github.com/Ishan2025-new/MCA-Minor-Project-Bank-Management-System-using-Python-and-MySQL",
-    imageUrl: "/src/assets/images/Bank Management System.jpg"
+    githubUrl: "https://github.com/Ishan2025-new/MCA-Minor-Project-Bank-Management-System-using-Python-and-MySQL"
   },
   {
     id: "movie-recommendation-db",
@@ -212,8 +207,7 @@ export const PROJECTS: Project[] = [
       "SQL scripts ready for Python data science integration"
     ],
     techStack: ["MySQL", "Relational Database Design", "SQL Queries", "Database Indexing"],
-    githubUrl: "https://github.com/Ishan2025-new/MySQL-Project-Movie-Recommendation-Database-System",
-    imageUrl: "/src/assets/images/Movie Management System.jpg"
+    githubUrl: "https://github.com/Ishan2025-new/MySQL-Project-Movie-Recommendation-Database-System"
   }
 ];
 
